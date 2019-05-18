@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>A page wishing nice things to people </title>
+    <style>
+    h1 { color: #FF0000; }
+  </style>
+</head>
+<body>
+<title>Nice things</title>
+<h1>Our Nice Page</h1>
+{% if name %}
+  <h2>You look nice {{ name }}!</h2>
+{% else %}
+  <h2>You look nice, unknown person!</h2>
+{% endif %}
+<p> We hope you have a lovely day :) </p>    
+</body>
